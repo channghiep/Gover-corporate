@@ -18,12 +18,16 @@ import Contact from './components/contact/contact';
 import './App.css';
 
 class App extends Component {
+
+ 
+
   render() {
     return (
       <Router>
       <div className="App">
 
-        <Navbar />
+        <Navbar 
+           />
 
           <Route exact path='/' component={Landing} />
           <Route exact path='/pricing' component={Pricing} />

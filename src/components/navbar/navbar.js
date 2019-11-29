@@ -9,6 +9,10 @@ import {
 import './navbar.css';
 //components
 class Navbar extends Component {
+  handleButtonClick = () => {
+    console.log("working");
+    window.location.href="http://gover-app.com"
+  }
   render() {
     return (
       <div className="topNav">
@@ -27,7 +31,7 @@ class Navbar extends Component {
             <a href="/pricing" className="nav-pricing">pricing</a>
             <a href="/about" className="nav-about">about us</a>
             <a href="/contact" className="nav-contact">contact us</a>
-            <button className="login">login</button>
+            <button className="login"  onClick={this.handleButtonClick}>login</button>
           </nav> 
         }
       />
