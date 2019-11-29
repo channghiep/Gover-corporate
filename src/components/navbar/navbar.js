@@ -17,7 +17,7 @@ class Navbar extends Component {
     return (
       <div className="topNav">
         <div className="logoDiv">
-          <Link href="/" className="logoLink"><img href="/" className="logo" alt="Gover_Logo" src="gover_logo.svg"/></Link>
+          <Link to="/" className="logoLink"><img href="/" className="logo" alt="Gover_Logo" src="gover_logo.svg"/></Link>
         </div>
       
       <ResponsiveMenu
@@ -28,9 +28,9 @@ class Navbar extends Component {
         smallMenuClassName="small-menu-classname"
         menu={
           <nav>
-            <Link href="/pricing" className="nav-pricing">pricing</Link>
-            <Link href="/about" className="nav-about">about us</Link>
-            <Link href="/contact" className="nav-contact">contact us</Link>
+            <Link to="/pricing" className="nav-pricing">pricing</Link>
+            <Link to="/about" className="nav-about">about us</Link>
+            <Link to="/contact" className="nav-contact">contact us</Link>
             <button className="login"  onClick={this.handleButtonClick}>login</button>
           </nav> 
         }
