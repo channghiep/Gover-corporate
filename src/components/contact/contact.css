@@ -1,0 +1,142 @@
+/* Typography */
+
+.contact_title h1 {
+  font-family:'Saira', sans-serif;
+  font-size: 36px;
+  color:#002942;
+  font-weight: 400;
+  /* text-align: center; */
+
+}
+
+
+/* Elements */
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact_content {
+  padding-left: 6%;
+  padding-right: 6%;
+
+}
+
+.contact .contact_img {
+  width: 50px;
+  margin-top: 50px;
+}
+
+/* .form_container {
+  display: grid;
+  grid-template-columns: ;
+} */
+
+/* Contact Form */
+
+.form {
+  display: grid;
+}
+
+.label_name, .label_email, .label_subject, .label_message{
+  font-family:'Saira', sans-serif;
+  font-size: 18px; 
+  color: #EF7667;
+  display: block;
+
+  padding-bottom: 6px;
+}
+
+.input_name, .input_email, .input_subject {
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  padding: 12px 0 12px 10px;
+  width: -webkit-fill-available; 
+
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;;
+
+  margin-bottom: 6px;
+}
+
+.text_message {
+  height: 100px;
+  width: -webkit-fill-available;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  padding: 12px 0 12px 10px; 
+
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.send_button {
+  background-image: linear-gradient(to right, #41BBC0 , #ABD48D);
+  border: none;
+  border-radius: 5px;
+  font-family: Saira, Roboto, "sans serif";
+  font-size: 18px;
+  color: white;
+  padding:  6px 20px;
+}
+
+/* QUERIES */
+
+@media only screen and (min-width: 910px) {
+
+  /* Typography */
+
+  .contact_title h1 {
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Elements */
+
+  .contact .contact_img {
+    width: 100px;
+    margin-top: 0;
+ 
+  }
+
+  .form_container {
+    display: grid;
+    grid-template-columns: 60%;
+  }
+
+  /* Contact Form */
+
+  .label_name, .label_email, .label_subject, .label_message{
+    font-size: 24px; 
+    padding-bottom: 10px;
+  }
+
+  .input_name, .input_email, .input_subject, .text_message {
+    border-radius: 10px;
+    width: -webkit-fill-available; 
+    font-size: 24px;;
+    margin-bottom: 10px;
+  }
+
+  .name_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+  }
+
+  .send_button {
+    font-size: 24px;
+  }
+
+  
+
+
+}

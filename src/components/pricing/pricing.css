@@ -1,0 +1,129 @@
+
+.pricing {
+    margin-top: 180px;
+    font-family: Saira, Roboto, 'sans serif';
+}
+
+.pricing div.pricing-bundle {
+    display: grid;
+    justify-content: center;
+    padding-left: 4% ;
+    padding-right: 4%;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #002942;
+}
+
+.pricing-personal, .pricing-business, .pricing-corporate {
+    display: grid;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px #00000016;
+    margin: 30px 6% 30px 6%;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.pricing-personal img {
+    height: 125px;
+    margin-top: 60px;
+}
+
+.pricing-business img {
+    height: 150px;
+    margin-top: 60px;
+}
+
+.pricing-corporate img {
+    height: 140px;
+    margin-top: 60px;
+}
+
+.pricing-personal h2, .pricing-business h2, .pricing-corporate h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #002942;
+}
+
+.pricing-business h2 {
+    margin-top: 2px;
+}
+
+.amount {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+
+.amount h3 {
+    color: #EF7667;
+    font-size: 48px;
+    margin-top: 0;
+    font-weight: 500;
+    justify-self: end;
+}
+
+.amount p {
+    font-size: 24px;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.corp-amount p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.included {
+    margin-top: 30px;
+    /* text-indent: 1.5rem; */
+}
+
+.included p {
+    border-top: 1px solid #DFDFDF;
+    padding-top: 20px;
+    padding-left: 1.5rem;
+}
+
+.included p:last-child {
+    border-bottom: 1px solid #DFDFDF;
+    padding-bottom: 20px;
+}
+
+.pricing-button {
+    margin: 10% 50px 10% 50px;
+    background-image: linear-gradient(to right, #41BBC0 , #ABD48D);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: Saira, Roboto, "sans serif";
+    font-size: 24px;
+    color: white;
+}
+
+@media only screen and (min-width: 910px) {
+    .pricing {
+        margin-top: 80px;
+    }
+
+    .page-title {
+        font-size: 48px;
+    }
+
+    .pricing-personal h2, .pricing-business h2, .pricing-corporate h2 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .pricing div.pricing-bundle {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

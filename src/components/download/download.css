@@ -1,0 +1,88 @@
+/* Typography */
+
+.download-text h1 {
+    color: #EF7667;
+    font-family: 'Saira', sans-serif;
+    font-size: 48px;
+    font-weight:800;
+    margin-top: 0;
+    margin-bottom:0;
+    line-height: 1;
+}
+
+.download-text p {
+    color: #002942;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px ;
+    line-height: 1.8;
+    padding-right: 1rem;
+    margin-bottom: 30px;
+}
+
+/* Elements */
+
+.download {
+    display: grid;
+    margin-top: 94px;
+}
+
+.download-text {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.download-img {
+    padding-right: 2rem;
+}
+
+.lottie{
+    display: none;
+}
+
+.download-img img {
+    display: grid;
+    content: url("../../assets/download_mob.svg");
+    max-width: 100vw;
+    height: auto;
+}
+
+.download-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    grid-gap: 14px;
+}
+
+.download-info {
+    margin-bottom: 50px;
+}
+
+/* QUERIES */
+
+@media screen and (min-width: 820px) {
+
+.download {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+
+.download-info {
+    align-self: center;
+}
+
+.download-img img {
+    display: none;
+}
+
+.download-button  {
+    width: 60%;
+}
+
+.lottie{
+    display: grid;
+    justify-content: center;
+}
+
+}

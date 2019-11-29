@@ -1,0 +1,100 @@
+/* Typography */
+
+.testimonials-title h1 {
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.test-title h2 {
+    color: #002942;
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+}
+
+.test-title h3 {
+    color: #002942;
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.test p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Elements */
+
+.testimonials {
+    background-color: #F39B90;
+}
+
+.test img {
+    width: 80px;
+}
+
+.test-profile {
+    /* display: grid;
+    grid-template-columns: 1fr 2fr; */
+
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.test-profile img {
+    align-self: center;
+    margin-right: 20px;;
+}
+
+.test-title{
+    align-self: center;
+}
+
+.test-title h2, h3 {
+    margin: 0;
+}
+
+.slick-slider {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 40px;
+    /* grid-template-columns: 1fr 10fr 1fr;
+    display: grid; */
+
+    display: flex;
+    
+}
+
+.slick-arrow {
+    align-self: center;
+    justify-self: center;
+
+}
+
+.slick-arrow.slick-next, .slick-arrow.slick-prev {
+    margin: 20px;
+}
+
+.slick-prev:before {
+    content: url(../../assets/arrow_prev.svg);
+}
+
+.slick-next:before {
+    content: url(../../assets/arrow_next.svg);
+}
+
+/* @media only screen and (min-width: 910px) {
+
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        margin: 40px;
+    }
+} */

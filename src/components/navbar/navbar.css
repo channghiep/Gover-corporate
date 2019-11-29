@@ -1,0 +1,118 @@
+
+.topNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topNav div:nth-child(2){
+    grid-column: 1;
+}
+
+nav {
+    display: grid;
+    font-family: Saira, Roboto, "sans serif";
+    font-size: 24px;
+    color: #002942;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    align-content: center;
+    grid-gap: 50px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited {
+    color: #002942;
+}
+
+a:hover {
+    color: #EF7667;
+}
+
+.small-menu-classname div:first-child {
+    display: grid;
+    justify-items: end;
+    padding: 2rem;
+    box-shadow: 0px 3px 6px #00000016;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: #fff;
+}
+
+.menu-open, .menu-close {
+    color: #002942;
+    font-size: 30px;
+    text-align: right;
+}
+
+.logoDiv {
+    z-index: 50;
+    position: fixed;
+    padding-top: 30px;
+    padding-left: 6%;
+}
+
+.logo {
+    height: 44px;
+}
+
+.login {
+    margin: 10% 50px 10% 50px;
+    background-image: linear-gradient(to right, #41BBC0 , #ABD48D);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: Saira, Roboto, "sans serif";
+    font-size: 24px;
+    color: white;
+}
+
+@media only screen and (min-width: 910px) {
+
+    .topNav {
+        background-color: #fff;
+        height: 100px;
+        box-shadow: 0px 3px 6px #00000016;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+    }
+
+    .logoDiv {
+        position: relative;
+        padding-left: 0;
+    }
+
+    nav {
+        display: flex;
+        top: 0;
+        height: 100px;
+        padding-top: 26px;
+        background-color: transparent;
+        justify-content: flex-end;
+        right: 6%;
+    }
+
+    .login {
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        justify-items: flex-end;
+        margin-left: 50px;
+    }
+
+    a {
+        padding-left: 50px;
+    }
+}

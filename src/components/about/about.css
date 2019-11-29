@@ -1,0 +1,66 @@
+/* ----- Typography ------ */
+
+.about-title h1 {
+    font-family:'Saira', sans-serif;
+    font-size: 36px;
+    color:#002942;
+    font-weight: 400;
+    /* text-align: center; */
+
+}
+
+.about-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#002942;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+
+/* Elements */
+
+.about {
+    display: grid;
+    margin-top: 100px;
+}
+
+.about_content {
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+.about_img img {
+    width: 50px;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 910px) {
+
+    .about-title h1 {
+        font-size: 48px;
+    }
+
+    .about-text p {
+        font-size: 24px;
+    }
+
+    .about_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .about_img {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        align-self: end;
+    }
+
+    .about_img img {
+        width: 150px;
+        margin-bottom:50px;
+    }
+}
