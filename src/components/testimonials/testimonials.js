@@ -74,11 +74,11 @@ class Testimonials extends Component {
 
           <div className='test-profile'>
 
-          <img src="monicqua_mob.svg" alt="leticia"/>
+          <img src="fananay_mob.svg" alt="leticia"/>
 
           <div className='test-title'>
-          <h2>Monicqua Spencer,</h2>
-          <h3>i have bronchitis!!</h3>
+          <h2>Thanh Nguyen,</h2>
+          <h3>popstar</h3>
           </div>
 
           </div>
