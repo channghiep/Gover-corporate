@@ -64,8 +64,8 @@
 }
 
 .slick-slider {
-    /* padding-left: 6%;
-    padding-right: 6%; */
+    padding-left: 6%;
+    padding-right: 6%;
     padding-bottom: 40px;
     /* grid-template-columns: 1fr 10fr 1fr;
     display: grid; */
@@ -77,10 +77,6 @@
 .slick-arrow {
     align-self: center;
     justify-self: center;
-    display: block;
-    background-color: transparent;
-    border: none;
-    font-size: 0;
 
 }
 
@@ -96,9 +92,9 @@
     content: url(../../assets/arrow_next.svg);
 }
 
-@media only screen and (min-width: 910px) {
+/* @media only screen and (min-width: 910px) {
 
     .slick-arrow.slick-next, .slick-arrow.slick-prev {
         margin: 40px;
     }
-}
+} */
